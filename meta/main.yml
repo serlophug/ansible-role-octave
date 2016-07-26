@@ -1,0 +1,26 @@
+galaxy_info:
+  author: Sergio López Huguet
+  description: Install GNU Octave
+
+  license: GPLv3 
+
+  min_ansible_version: 1.8
+
+  - name: Ubuntu
+    versions:
+    - precise
+    - quantal
+    - raring
+    - saucy
+    - trusty
+    
+  - name: Debian
+    versions:
+    - squeeze
+    - wheezy
+
+  galaxy_tags: 
+    - octave
+    - mathematics
+    
+dependencies: []
