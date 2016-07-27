@@ -10,7 +10,7 @@ This is an example of how install Octave:
 ```yml
 - hosts: all
   roles:
-    - { role: 'serlophug.ansible-role-octave' }
+    - { role: 'serlophug.octave' }
 ```
 License
 -------
