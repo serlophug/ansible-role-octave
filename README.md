@@ -4,13 +4,13 @@ Octave
 Install Octave in Ubuntu
 
 
-
 Example Playbook
 ----------------
-
-  roles:
-    - { role: 'serlophug.ansible-role-octave' }
-
+This is an example of how install Octave:
+	```yml
+	roles:
+	  - { role: 'serlophug.ansible-role-octave' }
+	```
 License
 -------
 
