@@ -2,7 +2,7 @@
 - name: Apt install Octave in Deb system
   apt: name=octave update_cache=yes cache_valid_time=3600
   when: ansible_os_family == "Debian"
-- name: Yum install R in REL syste
+- name: Yum install Octave in REL syste
   yum: name=epel-release,octave state=latest update_cache=yes
   when: ansible_os_family == "RedHat"
 
